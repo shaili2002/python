@@ -1,0 +1,24 @@
+Q1. What is pip & pep in python?
+
+Ans. a)Pip: Pip is a package management system used to install and manage software packages written in Python.It stands for "Preferred Installer   
+            Program".Pip is the standard package manager for Python and is used to install packages from the Python Package Index (PyPI) as well   
+            as other sources.
+ 
+     b)Pep: PEPs are design documents that provide information to the Python community or describe a new feature for Python or its processes.It   
+            stands for "Python Enhancement Proposal".PEPs cover a wide range of topics, including language and library enhancements, processes,  
+            and guidelines for Python development and distribution.
+==================================================================================================================================================
+Q2. What is a life scope of a variable?
+
+Ans. The "life scope" of a variable typically refers to the portion of a program where that variable is accessible and holds a value. This concept   
+     is closely related to the scope of a variable, which defines where in the code that variable can be referenced.
+
+There are generally three main types of variable scope:-
+ 
+a) Global Scope: Variables defined outside of any function or block have global scope. They can be accessed from anywhere in the code, including 
+                 within functions.
+b) Local Scope: Variables defined within a function or a block (such as an if statement or loop) have local scope. They are only accessible within  
+                that function or block.
+c) Function Scope: In some languages, variables declared within a function have scope limited to that function. They cannot be accessed outside of 
+                   that function.
+==================================================================================================================================================

@@ -1,0 +1,17 @@
+Q1. Explain call by value and call by reference.
+
+Ans. a) Call by value: You give a function a copy of a variable's value,so changes inside the functiondon't affect the original variable outside the function. It's like sharing a photo of a cake with a friend,so whatever they do with their photo doesn't change your cake.
+
+b) Call by reference: You give a function the actual variable itself,so changes inside the function affect the original variable outside the function. It's like sharing the actual cake with a friend,so any changes they make to the cake directly affect the one you have.
+======================================================================================================================
+Q2. Difference between Python2 and Pyhton3.
+
+Ans. 1) Print Statement: In Python 2, the print statement is used without parentheses, like print "Hello". 
+                         In Python 3, it's a function and requires parentheses, like print("Hello").
+     2) Integer Division: In Python 2, if you divide two integers, you get an integer result, like 5 / 2 = 2                                
+                          In Python 3, division always returns a float, like 5 / 2 = 2.5
+     3) Integer size: In Python 2, limited to 32 bits.
+                      In Python 3, Unlimited.
+     4) Leak of variables: In Python 2, never changes.
+                           In Python 3, changes while using it inside for loop.
+======================================================================================================================
