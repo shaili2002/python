@@ -1,0 +1,24 @@
+Q1. print:
+# " []{}()  "  => bracket are correct
+# [ {} ()]  => bracket are correct
+# [ { ( ]   }]    => brackets are incorrect
+
+s=(input("enter your brackets"))
+stack =[]
+mapping = {')': '(', '}': '{', ']': '['}
+
+for char in s:
+    if char in mapping.values():
+        stack.append(char)
+    elif char in mapping.keys():
+        if not stack or mapping[char] != stack.pop():
+            print("Brackets are incorrect")
+            break
+    else:
+        continue
+else:
+    if not stack:
+        print("Brackets are correct")
+    else:
+        print("Brackets are incorrect")
+=======================================================================
